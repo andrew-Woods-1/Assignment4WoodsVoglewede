@@ -58,7 +58,7 @@ namespace Assignment4WoodsVoglewede.pages
             }
 
             KarateDataContext dbcon;
-            string connString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"C:\\Users\\flame\\Desktop\\CS 213 Tutorials\\Assignment4WoodsVoglewede\\App_Data\\KarateSchool.mdf\";Integrated Security=True;Connect Timeout=30";
+            string connString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\KarateSchool.mdf;Integrated Security=True;Connect Timeout=30";
             //place holder string for instructor's username
             string userName;
 
