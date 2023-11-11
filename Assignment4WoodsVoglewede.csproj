@@ -107,6 +107,7 @@
     <Content Include="App_Data\KarateSchool_log.ldf">
       <DependentUpon>KarateSchool.mdf</DependentUpon>
     </Content>
+    <Content Include="App_Data\test.txt" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-grid.rtl.css" />
@@ -126,6 +127,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="pages\Administrator.aspx" />
     <Content Include="pages\Instructor.aspx" />
     <Content Include="pages\Logon.aspx" />
     <Content Include="pages\Member.aspx" />
@@ -207,6 +209,13 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Karate.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="pages\Administrator.aspx.cs">
+      <DependentUpon>Administrator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\Administrator.aspx.designer.cs">
+      <DependentUpon>Administrator.aspx</DependentUpon>
     </Compile>
     <Compile Include="pages\Instructor.aspx.cs">
       <DependentUpon>Instructor.aspx</DependentUpon>
