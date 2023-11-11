@@ -12,6 +12,6 @@
         </asp:GridView>
     </p>
     <p>
-        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/pages/Logon.aspx">Log Out</asp:HyperLink>
+        &nbsp;<asp:LinkButton ID="lbLogOut" runat="server" OnClick="lbLogOut_Click">Log Out</asp:LinkButton>
     </p>
 </asp:Content>
