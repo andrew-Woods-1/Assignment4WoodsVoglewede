@@ -48,7 +48,7 @@
     <p">
         <strong>Member Information</strong> <asp:GridView ID="memberGridView" runat="server">
         </asp:GridView>
-    </p>
+    &nbsp;</p>
     <p>
         &nbsp;</p>
     <p>

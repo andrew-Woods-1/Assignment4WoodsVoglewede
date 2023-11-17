@@ -127,6 +127,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="main.css" />
     <Content Include="pages\Administrator.aspx" />
     <Content Include="pages\Instructor.aspx" />
     <Content Include="pages\Logon.aspx" />
