@@ -78,14 +78,14 @@ namespace Assignment4WoodsVoglewede.pages
             }
             catch (Exception exception)
             {
-                terminateAccess();
+                TerminateAccess();
             }
 
 
         }
 
         // for logging out / preventing unauthorized access
-        public void terminateAccess()
+        public void TerminateAccess()
         {
             logon.DeleteUserName();
             Response.Redirect("logon.aspx");
@@ -93,7 +93,7 @@ namespace Assignment4WoodsVoglewede.pages
 
         protected void lbLogOut_Click(object sender, EventArgs e)
         {
-            terminateAccess();
+            TerminateAccess();
         }
     }
 }
